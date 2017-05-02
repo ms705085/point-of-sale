@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Punto Venta Movil</string>
+    <string name="app_name">POS Movil</string>
+    <string name="app_title">Punto Venta Movil</string>
 </resources>

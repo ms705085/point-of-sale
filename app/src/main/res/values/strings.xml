@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Mobile Point Of Sale</string>
+    <string name="app_name">POS Mobile</string>
+    <string name="app_title">Mobile Point Of Sale</string>
 </resources>
