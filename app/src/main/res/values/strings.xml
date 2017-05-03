@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">POS Mobile</string>
     <string name="app_title">Mobile Point Of Sale</string>
+    <string name="login_auth">Authentication</string>
+    <string name="str_login_username">Username</string>
+    <string name="str_login_pass">Password</string>
+    <string name="lab_btn_login">Login</string>
+    <string name="lab_btn_register">Register</string>
+    <string name="err_username_empty">Username is required!</string>
+    <string name="err_pass_empty">Password is required!</string>
+    <string name="err_auth_fail">Authentication failed!</string>
 </resources>

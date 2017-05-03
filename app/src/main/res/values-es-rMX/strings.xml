@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">POS Movil</string>
     <string name="app_title">Punto Venta Movil</string>
+    <string name="login_auth">Autenticacion</string>
+    <string name="str_login_username">Nombre de Usuario</string>
+    <string name="str_login_pass">Contraseña</string>
+    <string name="lab_btn_login">Entrar</string>
+    <string name="lab_btn_register">Registrarse</string>
+    <string name="err_username_empty">Nombre de usuario es requerido!</string>
+    <string name="err_pass_empty">Contraseña es requerida!</string>
+    <string name="err_auth_fail">Autenticacion fallo!</string>
 </resources>
