@@ -8,5 +8,19 @@
     <string name="lab_btn_register">Register</string>
     <string name="err_username_empty">Username is required!</string>
     <string name="err_pass_empty">Password is required!</string>
+    <string name="err_name_empty">Name is required!</string>
     <string name="err_auth_fail">Authentication failed!</string>
+    <string name="err_auth_user_inactive">Authentication failed, user is inactive!</string>
+
+    <string name="title_activity_register">Register form</string>
+    <string name="salesperson_detail_register">Salesperson Details</string>
+    <string name="store_register">Store:</string>
+    <string name="username_register">Username:</string>
+    <string name="name_register">Name:</string>
+    <string name="pass_register">Password:</string>
+    <string name="request_register">Request</string>
+    <string name="cancel_register">Cancel</string>
+    <string name="message_sent_register">Request was sent, please wait for authorization!</string>
+    <string name="message_user_is_active_register">User is already authorized!</string>
+    <string name="message_user_is_inactive_register">Request was not sent, user exists, please wait for authorization!</string>
 </resources>

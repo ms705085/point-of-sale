@@ -3,6 +3,78 @@
 
     <item
         is-multidex="true"
+        jar="/home/josedelg/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-ddb/2.2.22/a1e0dd0d91d40d9e67342d3a8bd26f08edaa3549/aws-android-sdk-ddb-2.2.22.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a1e0dd0d91d40d9e67342d3a8bd26f08edaa3549">
+        <dex dex="/home/josedelg/projects/maestria/final-project-IV/CodigoBarras/app/build/intermediates/transforms/dex/debug/folders/1000/10/aws-android-sdk-ddb-2.2.22_23a35203c222614ccb4253de54e3a932dfb9c37a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/josedelg/projects/maestria/final-project-IV/CodigoBarras/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="63d397d96d505ada8143ab793188c33d1baff8db">
+        <dex dex="/home/josedelg/projects/maestria/final-project-IV/CodigoBarras/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_fd79c5f5e0b413e1c8232108d0b8dc0e20d722c2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/josedelg/.android/build-cache/52af80cc13472df57914febb5111a1495f03b48e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7113302c965566b66df46c6ca75ea301576114a5">
+        <dex dex="/home/josedelg/projects/maestria/final-project-IV/CodigoBarras/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3f13cdea0bc5a1212281d66938d0348420531e46/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/josedelg/projects/maestria/final-project-IV/CodigoBarras/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/home/josedelg/projects/maestria/final-project-IV/CodigoBarras/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_d345484263877cc87c19b079d3d76411ca77d8fa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/josedelg/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-s3/2.2.22/40fe82092e0ae3ca549b132a1e7e876807525176/aws-android-sdk-s3-2.2.22.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="40fe82092e0ae3ca549b132a1e7e876807525176">
+        <dex dex="/home/josedelg/projects/maestria/final-project-IV/CodigoBarras/app/build/intermediates/transforms/dex/debug/folders/1000/10/aws-android-sdk-s3-2.2.22_b4741bfad1f0f4855b75d2e9c3709492ad4b2115/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/josedelg/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.1/constraint-layout-solver-1.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1ad79631209e77b0a2730fc112b4cc0c66a95132">
+        <dex dex="/home/josedelg/projects/maestria/final-project-IV/CodigoBarras/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.1_f8b042e614ff27301cdcf2216dfb54ae28cbd92e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/josedelg/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-ddb-mapper/2.2.22/57538cc0c8d6f9279d94aa347fb1a90f68592719/aws-android-sdk-ddb-mapper-2.2.22.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="57538cc0c8d6f9279d94aa347fb1a90f68592719">
+        <dex dex="/home/josedelg/projects/maestria/final-project-IV/CodigoBarras/app/build/intermediates/transforms/dex/debug/folders/1000/10/aws-android-sdk-ddb-mapper-2.2.22_543373dc4234de4350d57b71de276b6f5aa2bf61/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/josedelg/.gradle/caches/modules-2/files-2.1/com.amazonaws/aws-android-sdk-core/2.2.22/c6789de00db9d1f93faec881fa0c1f5960fb8a15/aws-android-sdk-core-2.2.22.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="c6789de00db9d1f93faec881fa0c1f5960fb8a15">
+        <dex dex="/home/josedelg/projects/maestria/final-project-IV/CodigoBarras/app/build/intermediates/transforms/dex/debug/folders/1000/10/aws-android-sdk-core-2.2.22_17595160b5bc8438e4153e2a6e6b5254092b1442/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/josedelg/projects/maestria/final-project-IV/CodigoBarras/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -12,11 +84,20 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/josedelg/Downloads/android-studio/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/home/josedelg/projects/maestria/final-project-IV/CodigoBarras/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.2.4_64bd0e518d472ebb5dfeba4645be5033c1320c5f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/josedelg/projects/maestria/final-project-IV/CodigoBarras/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
-        revision="25.0.2"
-        sha1="31e84d1c84658656b8b65b2b4c2295b5e7cd4c60">
+        revision="25.0.3"
+        sha1="63d397d96d505ada8143ab793188c33d1baff8db">
         <dex dex="/home/josedelg/projects/maestria/final-project-IV/CodigoBarras/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_fd79c5f5e0b413e1c8232108d0b8dc0e20d722c2/classes.dex" />
     </item>
 

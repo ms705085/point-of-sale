@@ -2,11 +2,22 @@
     <string name="app_name">POS Movil</string>
     <string name="app_title">Punto Venta Movil</string>
     <string name="login_auth">Autenticacion</string>
-    <string name="str_login_username">Nombre de Usuario</string>
+    <string name="str_login_username">Usuario</string>
     <string name="str_login_pass">Contraseña</string>
     <string name="lab_btn_login">Entrar</string>
     <string name="lab_btn_register">Registrarse</string>
     <string name="err_username_empty">Nombre de usuario es requerido!</string>
     <string name="err_pass_empty">Contraseña es requerida!</string>
     <string name="err_auth_fail">Autenticacion fallo!</string>
+    <string name="err_auth_user_inactive">Autenticacion fallo, usuario es inactivo!</string>
+
+    <string name="title_activity_register">Forma de Registro</string>
+    <string name="salesperson_detail_register">Datos de Vendedor</string>
+    <string name="store_register">Sucursal:</string>
+    <string name="username_register">Usuario:</string>
+    <string name="name_register">Nombre:</string>
+    <string name="pass_register">Contraseña:</string>
+    <string name="request_register">Enviar</string>
+    <string name="cancel_register">Cancelar</string>
+    <string name="message_sent_register">Solicitud fue enviada, espere la autorizacion!</string>
 </resources>

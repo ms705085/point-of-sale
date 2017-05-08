@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mx.iteso.ms.codigobarras.RegisterActivity"
+    android:orientation="horizontal"
+    android:background="@drawable/bg_pos">
+
+
+    <TextView
+        android:id="@+id/reg_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="@string/salesperson_detail_register"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/reg_lab_sucursal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/store_register"
+        android:layout_below="@+id/reg_title"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="30dp" />
+
+    <Spinner
+        android:id="@+id/reg_sp_sucursal"
+        android:layout_width="@dimen/reg_width_fields"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/reg_lab_sucursal"
+        android:layout_toEndOf="@+id/reg_lab_username"
+        android:layout_marginStart="20dp" />
+
+    <TextView
+        android:id="@+id/reg_lab_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/reg_lab_sucursal"
+        android:layout_below="@+id/reg_sp_sucursal"
+        android:layout_marginTop="15dp"
+        android:text="@string/username_register" />
+
+    <EditText
+        android:id="@+id/reg_txt_username"
+        android:layout_width="@dimen/reg_width_fields"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/reg_sp_sucursal"
+        android:layout_alignStart="@+id/reg_sp_sucursal"
+        android:layout_below="@+id/reg_sp_sucursal"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/reg_lab_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/reg_lab_username"
+        android:layout_below="@+id/reg_txt_username"
+        android:layout_marginTop="15dp"
+        android:text="@string/name_register" />
+
+    <EditText
+        android:id="@+id/reg_txt_name"
+        android:layout_width="@dimen/reg_width_fields"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/reg_txt_username"
+        android:layout_below="@+id/reg_txt_username"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/reg_lab_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/reg_lab_name"
+        android:layout_below="@+id/reg_txt_name"
+        android:layout_marginTop="15dp"
+        android:text="@string/pass_register" />
+
+    <EditText
+        android:id="@+id/reg_txt_pass"
+        android:layout_width="@dimen/reg_width_fields"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/reg_txt_name"
+        android:layout_below="@+id/reg_txt_name"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/reg_btn_request"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/reg_txt_pass"
+        android:layout_marginBottom="15dp"
+        android:onClick="request"
+        android:text="@string/request_register" />
+
+    <Button
+        android:id="@+id/reg_btn_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/reg_btn_request"
+        android:layout_alignBottom="@+id/reg_btn_request"
+        android:layout_toEndOf="@+id/reg_btn_request"
+        android:onClick="cancel"
+        android:text="@string/cancel_register" />
+</RelativeLayout>
